@@ -1,0 +1,28 @@
+all:
+  hosts:
+    ansible-1:
+      ansible_user: sameya
+      ansible_shh_pass: awsd
+      ansible_host: 192.168.0.110
+    
+    ansible-2:
+      ansible_user: sameya
+      ansible_shh_pass: awsd
+      ansible_host: 192.168.0.107
+
+  vars:
+    TOKEN: "7186040444:AAGFbk6zTz0oHZmZvZ1USRPQsyNnNKn8YCY"
+    RM_HOST: 192.168.0.110
+    RM_PORT: 22
+    RM_USER: sameya
+    RM_PASSWORD: awsd
+    DB_USER: postgres
+    DB_PASSWORD: awsd
+    DB_HOST: 192.168.0.110
+    DB_PORT: 5432
+    DB_DATABASE: base_pt
+    DB_REPL_USER: repl_user
+    DB_REPL_PASSWORD: awsd
+    DB_REPL_HOST: 192.168.0.107
+    DB_REPL_PORT: 5433
+    POSTGRES_HOST_AUTH_METHOD: trust
